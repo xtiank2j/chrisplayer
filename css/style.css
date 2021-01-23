@@ -1,0 +1,348 @@
+.navbar-custom {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+header {
+    background: url(../images/header.gif);
+    width: 100%;
+    height: 300px;
+    padding: 100px 50px;
+    color: aquamarine;
+    font-style: italic;
+}
+.mua a{
+    color:black;
+}
+.mua a:hover {
+text-decoration: none;
+color: skyblue;
+}
+div.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+.oki h1{ 
+    color: aquamarine;
+    font-style: normal;
+    font-weight: bold;
+}
+.navbar-header a{
+    color: #d4105c;
+    font-weight: bold;
+    font-style: oblique;
+}
+.navbar-custom li a{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    color: plum;
+    transition: 1s background-color ;
+}
+.navbar-custom li a:hover{
+    background: #e91768;
+    color: black;
+}
+.navbar-sub {
+    background: #e91768;
+}
+.navkil li a{
+    transition: 1s background-color ;
+    margin: 0 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: black;
+    font-size: 16px;
+}
+#fot{
+    background-color: yellow;
+}
+.navkil li a:hover{
+    border-radius: 5px;
+}
+/***post section ***/
+.post{
+    border-bottom:50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.post img{
+    border-radius: 5px;
+}
+.post p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+.post-title{
+    color: brown;
+    text-align: center;
+}
+.post-title:hover{
+    text-decoration: none;
+    color: maroon;
+    text-shadow:  0 2px 2px maroon ;
+}
+.meta a{
+    color:blueviolet;
+}
+.meta a:hover{
+    text-decoration: none;
+}
+.custom-sidebar-list{
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.custom-sidebar-list-item{
+    border-bottom: 1px solid brown;
+    display: block;
+    padding: 15px;
+    color:#ca0f82;
+    transition: 1s background-color;
+}
+.custom-sidebar-list-item:hover{
+    text-decoration: none;
+    background-color: #ca0f82;
+    color: whitesmoke;
+}
+.day-post{
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 10px;
+}
+.labelchange{
+    color: black;
+    background: yellow;
+    padding-left: 0;
+}
+.footerpadding{
+    padding: 50px;
+}
+.footer{
+    color: white;
+    margin: 20px;
+}
+.kilo{
+    color: blue;
+    text-shadow: 10px 10px;
+}
+.topnav a{
+    display: none;
+}
+#more {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav li {display: none;
+    }
+    .oki p {
+        display: none;
+    }
+    #xtx {
+        padding-top:10px;
+    }
+    .page-header{
+        padding-left: 10px;
+    }
+    .topnav a {
+      padding-right: 20px;
+      float: right;
+      display: block;
+      color: aliceblue;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;
+    }
+    .topnav.responsive .braa {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive ul a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .play-button{
+        position: absolute;
+        bottom: 0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 60px;
+        background-image: url(../images/video-sharing-image/orange-play-md.png);
+        opacity: 0;
+        transition: 1s opacity;
+        z-index: 1;
+      }
+      .play-button:hover{
+        opacity: 1;
+      }
+      .video-details{
+        position: absolute; 
+        bottom: 0;
+        background-color:#e46008 ; /* Fallback color */
+        background: rgb(228, 96, 8, 0.5); /* Black background with 0.5 opacity */
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #f1f1f1;
+        width: 90%;
+        padding: 20px;
+      }
+      .video-details h3{
+          margin: 0;
+          color:white;
+      }
+      .xtech{
+          color: black;
+          font-weight: bolder;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .new-video-details h5{
+          margin:0;
+      }
+      .new-video-author{
+          margin-bottom: 10px;
+      }
+  }
+  
+  /*******video sharing css*******/
+  .second-bar{
+      background-image:url('../images/headers1.gif');
+      background-position: center;
+  }
+  .second-bar ul li a{
+      color:black;
+      font-weight: bolder;
+  }
+  .second-bar ul li a:hover{
+    background-color: black;
+    color:yellow;
+  }
+  .vid-sidebar-list-item{
+    display:block;
+    color:#e46008;
+    font-weight:bolder;
+    padding: 8px;
+  }
+  .vid-sidebar-list-item:hover{
+    background:#e46008; 
+    text-decoration: none;
+    color:black;
+  }
+  .play-button{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+    background-image: url(../images/video-sharing-image/orange-play-md.png);
+    opacity: 0;
+    transition: 1s opacity;
+    z-index: 1;
+  }
+  .play-button:hover{
+    opacity: 1;
+  }
+  .video-details{
+    position: absolute; 
+    bottom: 0;
+    background-color:#e46008 ; /* Fallback color */
+    background: rgb(228, 96, 8, 0.5); /* Black background with 0.5 opacity */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f1f1f1;
+    width: 95.1%;
+    padding: 20px;
+  }
+  .video-details h3{
+      margin: 0;
+      color:white;
+  }
+  .video-details strong{
+      text-decoration: underline;
+  }
+  .xtech{
+      color: black;
+      font-weight: bolder;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .new-video-details{
+      position:center;
+  }
+  .new-video-details h5{
+      margin:0;
+  }
+  .new-video-author{
+      margin-bottom: 10px;
+  }
+  .new-video-discription{
+        margin-top: 0;
+  }
+/*****video-player****/
+video {
+    width: 100%;
+    height: auto;
+  }
+.user-image-container img{
+    width:60px;
+    height:60px;
+}
+.btn-square{
+    border-radius: 1px;
+    background: #e46008;
+    color: black;
+    font-weight: bolder;
+}
+.user-name-player-page{
+    color:#e46008;
+    font-weight: bolder;
+    display: block;
+}
+.video-description{
+    padding:0 20px 20px 20px;
+}
+.video-description p{
+    color:#656565;
+    line-height:20px;
+}
+.sidebar-videos{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e46008;
+}
+.sidebar-videos a {
+    color: black;
+    text-decoration-color: none;
+    transition: .5s color;
+}
+.sidebar-videos a:hover{
+    color: #e46008;
+    text-decoration: none;
+}
+.sidebar-video-title{
+    margin: 0;
+}
+.hartz{
+    margin: 0;
+    padding: 5px;
+}
+/***registration of video sharing section*****/
+.register_form{
+background: white;
+margin: 20px;
+border: 2px solid #8d018d;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 2px 2px 2px 2px #c922c9;
+}
